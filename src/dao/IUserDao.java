@@ -18,5 +18,4 @@ public interface IUserDao {
 	 */
 	public User findUser(String username,String password);
 	
-	
 }

@@ -10,7 +10,7 @@ public class DBUtils {
 
 	private static String url="jdbc:mysql://localhost:3306/tuniu?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT";
 	private static String user="root";
-	private static String password="******";
+	private static String password="admin";
 	private static String driverClass="com.mysql.cj.jdbc.Driver";
 	
 	//¼ÓÔØÇý¶¯
