@@ -1,0 +1,111 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+}
+center{
+	display: none;
+}
+body{
+	width: 100%;
+	background: #fff;
+}
+.gb img{
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 35px;
+	height: 35px;
+}
+form{
+	width: 280px;
+	margin: 20px auto;
+}
+legend{
+	color: #10be62;
+	font-size: 18px;
+	text-align: center;
+}
+input{
+	width: 280px;
+	padding:10px 10px 10px 5px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+input:focus{
+	outline: none;
+}
+input[type=submit],input[type=button]{
+	width: 280px;
+	color:#fff;
+	padding: 10px;
+	background: #10be62;
+	border-radius: 5px;
+}
+.reg{
+	margin-top:10px;
+	text-align: center;
+	font-size: 16px;
+}
+.reg a{
+	color: #666;
+}
+.reg span{
+	color:#999;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.login{
+	margin-top: 80px;
+	text-align: center;
+    border-top: opacity:0.69;
+    border-top: solid 1px #d4d4d4;
+    position: relative;
+    height: 100px;
+}
+.login p{
+	position: absolute;
+    top: -8px;
+    z-index: 10;
+    background: #fff;
+    left: 40%;
+    font-size: 13px;
+    color: #666666;
+}
+.login div{
+	width: 200px;
+	margin: 0 auto;
+}
+.login img{
+	margin-top: 20px;
+	width: 55px;
+	height: 55px;
+}
+
+.reg_suc{
+	width: 210px;
+	margin: 220px auto;
+	text-align: center;
+}
+.suc{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #666;
+}
+.djdl{
+	margin-top: 20px;
+	color:#10be62;
+}
+.mmcw{
+	color: #666;
+	margin-bottom: 15px;
+}
+.cuowu{
+	width: 260px;
+	margin: 220px auto;
+	text-align: center;
+}

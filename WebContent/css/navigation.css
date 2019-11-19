@@ -1,0 +1,180 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+}
+center{
+	display: none;
+}
+body{
+	width: 100%;
+	background: #fff;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	background-color: #10be62;
+	position: relative;
+}
+.header input{
+	position: absolute;
+	top: 5px;
+	margin-left: 15px;
+	width: 45%;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	background:url(../images/search.png) no-repeat 0 5px;
+	background-color: #fff;
+	background-size: 20px 20px;
+	text-indent: 25px;
+}
+.member{
+	position: absolute;
+	top: 8px;
+	right: 55px;
+	width: 25px;
+	height: 25px;
+}
+.nav{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	color: #fff;
+	font-size: 15px;
+}
+.zjbg{
+	clear: both;
+	width: 100%;
+	height: 10px;
+	margin-top:5px;
+	background: #f0f0f0;
+}
+.navigation{
+	clear: both;
+	margin-bottom: 10px;
+}
+.navigation img{
+	position: absolute;
+	left: 20px;
+	top: 7px;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle; 
+}
+.navigation span{
+	position: absolute;
+	top: 4px;
+	left:60px;
+	font-size: 14px;
+	text-align: center;
+}
+.navigation a{
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	float:left;
+	width: 33.3%;
+	height: 50px;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px solid #e4e1da;
+	border-bottom: 1px solid #e4e1da;
+	color: #999;
+}
+.navigation a:nth-child(3n){
+	border-right: none;
+}
+.find_wonderful p{
+	padding-top: 5px;
+	display: inline-block;
+	color: #666;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.find_wonderful img{
+	padding-top: 10px;
+	width: 60px;
+	height: 18px;
+}
+.fx_wdf{
+
+}
+.fx_wdf img{
+	margin-top: 10px;
+	float: left;
+	width: 25%;
+	margin-bottom: 20px;
+}
+.fot{
+	clear: both;
+	position: relative;
+	width: 100%;
+}
+.fot img{
+	position: absolute;
+}
+.fot div{
+	position: absolute;
+}
+.dh{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.xz{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #dcdcdc;
+}
+.fot div a{
+	width: 100%;
+	height: 61px;
+	position: relative;
+	text-align: center;
+	display: block;
+}
+.fot div a span{
+    text-align: center;
+    font-weight: normal;
+    position: absolute;
+    display: block;
+}
+.tital{
+	color: #999;
+    bottom: 58%;
+    left: 22%;
+}
+.tex{
+	color: #f80;
+    font-weight: bolder;
+    bottom: 18%;
+    left: 22%;
+    font-size: 18px;
+}
+.black{
+    color: #333;
+    font-weight: normal;
+    position: absolute;
+    display: block;
+    bottom: 53%;
+    left: 24%;
+    font-size: 15px;
+}
+.gray{
+	text-align: center;
+    color: #999;
+    font-weight: normal;
+    position: absolute;
+    display: block;
+    bottom: 21%;
+    left: 24%;
+    font-size: 12px;
+}
+

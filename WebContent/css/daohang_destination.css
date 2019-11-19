@@ -1,0 +1,42 @@
+#footer_1{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 1.3066667rem;
+	width: 100%;
+	background-color: #ededed;
+    display: flex;
+}
+#footer_1 a{
+	display: block;
+	flex: 1;
+	color: #999;
+}
+#footer_1 a span{
+	display: block;
+    margin :0.13rem auto 0.04rem auto;
+}
+#footer_1 a.home span{
+    width: 0.72rem;
+    height: 0.64rem;
+    background: url(../images/icon/shouye.png) no-repeat;
+    background-size: contain;
+}
+#footer_1 a.destination span{
+    width: 0.64rem;
+    height: 0.65rem;
+    background: url(../images/icon/daohang.png) no-repeat;
+    background-size: contain;
+}
+#footer_1 a.history span{
+    width: 0.70rem;
+    height: 0.66rem;
+    background: url(../images/icon/dizhi_press.png) no-repeat;
+    background-size: contain;
+}
+#footer_1 a.my span{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: url(../images/icon/me.png) no-repeat;
+    background-size: contain;
+}
